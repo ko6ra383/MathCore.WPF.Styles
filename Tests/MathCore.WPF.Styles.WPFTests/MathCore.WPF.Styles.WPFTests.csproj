@@ -10,5 +10,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\MathCore.WPF.Styles\MathCore.WPF.Styles.csproj" />
   </ItemGroup>
+	
 
 </Project>
