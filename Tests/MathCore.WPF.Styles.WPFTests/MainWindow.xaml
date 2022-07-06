@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MathCore.WPF.Styles.WPFTests"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Window.Resources>
+    <!--<Window.Resources>
         <ControlTemplate TargetType="TextBox" x:Key="TaggedTextBoxTemplate">
             <Grid>
                 <Grid.RowDefinitions>
@@ -53,7 +53,7 @@
             <Setter Property="Template" Value="{StaticResource TaggedTextBoxTemplate}" />
             <Setter Property="BorderBrush" Value="Transparent" />
         </Style>
-    </Window.Resources>
+    </Window.Resources>-->
     <Grid>
         <TextBox HorizontalAlignment="Left" VerticalAlignment="Top"
                  Margin="10 25" Width="120" 
