@@ -5,6 +5,10 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.WPF.Styles", "MathCore.WPF.Styles\MathCore.WPF.Styles.csproj", "{6721D2F6-3479-41DA-95E4-0362C8A23F92}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D3B94544-4C64-4683-A06E-AFED0D182F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathCore.WPF.Styles.WPFTests", "Tests\MathCore.WPF.Styles.WPFTests\MathCore.WPF.Styles.WPFTests.csproj", "{C6F70510-E971-41DE-987F-007E1470161E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{6721D2F6-3479-41DA-95E4-0362C8A23F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6721D2F6-3479-41DA-95E4-0362C8A23F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6721D2F6-3479-41DA-95E4-0362C8A23F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F70510-E971-41DE-987F-007E1470161E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F70510-E971-41DE-987F-007E1470161E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F70510-E971-41DE-987F-007E1470161E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F70510-E971-41DE-987F-007E1470161E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C6F70510-E971-41DE-987F-007E1470161E} = {D3B94544-4C64-4683-A06E-AFED0D182F98}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {37A5940C-E371-4E11-8CA7-3CA1A6965A10}
