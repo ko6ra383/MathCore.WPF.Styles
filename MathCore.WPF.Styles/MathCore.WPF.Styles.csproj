@@ -1,7 +1,42 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+	  <TargetFramework>netcoreapp3.1</TargetFramework>
+	  <UseWPF>true</UseWPF>
+	  <LangVersion>latest</LangVersion>
   </PropertyGroup>
-
+	
+	
+	<PropertyGroup>
+		<Version>0.0.2</Version>
+		<PackageReleaseNotes>Анимация заголовка textbox</PackageReleaseNotes>
+	</PropertyGroup>
+		
+			
+	<PropertyGroup>
+		<Authors>KBR</Authors>
+		<Company>KBR</Company>
+		<Product>MathCore.WPF.Styles</Product>
+		<Description>Стили и шаблоны для элементов WPF под .NETCore3+</Description>
+		<Copyright>KBR</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/ko6ra383/MathCore.WPF.Styles</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/ko6ra383/MathCore.WPF.Styles</PackageProjectUrl>
+		<PackageTags>WPF, Styles, Templates</PackageTags>
+		<Company>KBR</Company>
+		<Product>MathCore.WPF.Styles</Product>
+		<Description>Стили и шаблоны для элементов WPF под .NETCore3+</Description>
+		<Copyright>KBR</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/ko6ra383/MathCore.WPF.Styles</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/ko6ra383/MathCore.WPF.Styles</PackageProjectUrl>
+		<AssemblyOriginatorKeyFile>MathCore.WPF.Styles.snk</AssemblyOriginatorKeyFile>
+		<SignAssembly>True</SignAssembly>
+		<PackageId>KBR.MathCore.WPF.Styles</PackageId>
+		<SymbolPackegeFormat>snupkg</SymbolPackegeFormat>
+	</PropertyGroup>
+		
+	
+		
+	
 </Project>
