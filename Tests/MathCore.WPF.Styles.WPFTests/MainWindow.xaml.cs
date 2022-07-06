@@ -17,7 +17,7 @@ namespace MathCore.WPF.Styles.WPFTests
 {
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow() 
         {
             InitializeComponent();
         }
